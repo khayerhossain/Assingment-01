@@ -1,0 +1,68 @@
+body {
+    font-family: "Fira Sans", serif;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.web-name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.frist-btn {
+    padding: 12px 25px 12px 25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.banner-section {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.banner-description {
+    margin-left: 50px;
+}
+
+.banner-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: 700
+}
+
+/* shared style */
+.primary-btn {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 16px 32px 16px 32px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
