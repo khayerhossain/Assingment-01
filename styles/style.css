@@ -175,5 +175,29 @@ nav ul li {
     background: rgb(255, 194, 57);
     border: none;
     margin-top: 20px;
+}
 
+/* quote section */
+.quote-section {
+    margin-top: 40px;
+    background-image: url('../images/quote-bg.png');
+    background-image: linear-gradient(rgba(14, 14, 14, 0.3)) url('../images/quote-bg.png');
+    background-repeat: no-repeat;
+    height: 270px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.quote-container {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding-left: 3px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.chief-name {
+    font-size: 18px;
+    font-weight: 600;
 }
