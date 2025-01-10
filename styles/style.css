@@ -240,3 +240,66 @@ nav ul li {
     background: rgb(0, 106, 80);
     border: none;
 }
+
+/* donate section */
+.donate-description {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.money-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.box {
+    width: 240px;
+    height: 112px;
+    font-size: 28px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.color-box {
+    background-color: rgb(198, 228, 214);
+}
+
+.donation-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.amount-box {
+    text-align: center;
+    width: 970px;
+    /* padding: 10px; */
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 18px 30px 18px 30px;
+}
+
+.donate-now {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 16px 32px 16px 32px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+
+.donate-btn {
+    padding: 15px;
+    text-align: center;
+}
