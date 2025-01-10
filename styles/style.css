@@ -66,3 +66,28 @@ nav ul li {
     background: rgb(0, 106, 80);
     border: none;
 }
+
+/* pillar section styles */
+.pillar-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 42px;
+}
+
+.cards {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 300px;
+    height: 240px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
