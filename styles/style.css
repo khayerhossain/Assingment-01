@@ -19,7 +19,7 @@ nav ul li {
     font-weight: 700;
 }
 
-.frist-btn {
+.first-btn {
     padding: 12px 25px 12px 25px;
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
@@ -27,7 +27,14 @@ nav ul li {
     color: rgb(0, 106, 80);
     font-size: 16px;
     font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+    /* transition: 0.3s ease-in-out; */
+}
 
+.first-btn:hover {
+    background-color: rgb(0, 106, 80);
+    color: white;
 }
 
 .banner-section {
@@ -65,6 +72,12 @@ nav ul li {
     padding: 16px 32px 16px 32px;
     background: rgb(0, 106, 80);
     border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.primary-btn:hover {
+    background-color: black;
 }
 
 /* pillar section styles */
@@ -151,6 +164,8 @@ nav ul li {
     background: rgb(84, 144, 245);
     border: none;
     margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -163,6 +178,8 @@ nav ul li {
     background: rgb(9, 161, 92);
     border: none;
     margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -175,7 +192,18 @@ nav ul li {
     background: rgb(255, 194, 57);
     border: none;
     margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
+
+.blue-btn:hover,
+.green-btn:hover,
+.yellow-btn:hover {
+    background-color: black;
+}
+
+/* opinion section */
+
 
 /* quote section */
 .quote-section {
@@ -239,6 +267,13 @@ nav ul li {
     padding: 10px 25px 10px 25px;
     background: rgb(0, 106, 80);
     border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.satellite-btn:hover {
+    background-color: black;
+    color: azure;
 }
 
 /* donate section */
@@ -265,6 +300,12 @@ nav ul li {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+    background-color: rgb(0, 106, 80);
+    color: white;
 }
 
 .color-box {
@@ -297,11 +338,19 @@ nav ul li {
     padding: 16px 32px 16px 32px;
     background: rgb(0, 106, 80);
     border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .donate-btn {
     padding: 15px;
     text-align: center;
+}
+
+.donate-now:hover {
+
+    background-color: #A5D6A7;
+    color: black;
 }
 
 /* footer section */
@@ -344,7 +393,13 @@ nav ul li {
     padding: 16px 32px 16px 32px;
     background: rgb(0, 106, 80);
     border: none;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: black;
+    color: white;
 }
 
 .footer-note {
